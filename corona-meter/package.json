@@ -1,0 +1,12 @@
+{
+  "name": "corona-meter",
+  "description": "lookup latest coronavirus numbers for countries",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^5.1.0",
+    "node-fetch": "^2.6.0"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "author": "atifcppprogrammer"
+}
