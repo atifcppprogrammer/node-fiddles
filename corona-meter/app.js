@@ -1,8 +1,8 @@
 /**
- * Script defines app module. app is the main entry point of the 
+ * Script defines app module. app is the main entry point of the
  * application, using commander to collect country name and then
  * show details for it.
- * 
+ *
  * @author atifcppprogrammer
  */
 
@@ -31,7 +31,9 @@ const countryData = scraper.collectData().catch((err) => {
 /**
  * Method searches for given country through scraped data and
  * prints its details on the console.
- * 
+ * @description
+ *
+ * @method
  */
 const printCountryDetails = (async () => {
   // Collecting details for country.
